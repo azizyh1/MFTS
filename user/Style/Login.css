@@ -1,0 +1,58 @@
+body{
+    background-color: #8fc8fd;
+    height: 100%;
+}
+#Container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75%;
+position: relative;
+left: 351px;
+top: 116px;
+}
+#Back
+{
+    width: 450px;
+}
+h1{
+    font-size: 27px;
+    text-align: centre;
+}
+#sousLogin
+{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+
+}
+button{
+    padding: 15px 80px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    
+}
+button :hover{
+    background-color: gray;
+}
+
+#login
+{
+    padding: 12px;
+    width: 344px;
+    height: 470px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+input{
+    box-shadow: 1px 1px 1px 1px #cfcfcf;
+padding: 8px;
+}

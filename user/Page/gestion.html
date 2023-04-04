@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FMTS</title>
+    <link rel="stylesheet" href="../Style/gestion.css" >
+    </head>
+
+    <body>
+       <h1>Gestion des matieres</h1>
+        <Select id="machine">
+            
+            <option value="macchi1">Macchi-1</option>
+            <option value="macchi2">Macchi-2</option>
+            <option value="varex">VAREX</option>
+  
+          </Select>
+          <div id="Container">
+            <div class ="matiére">
+                <h3>Ajouter une nouvelle matiere</h3>
+                <div id="sousLogin"> 
+                <form action="../users-database/config1.php" method="POST">
+                        <span class="spans"> Code a barre</span>
+                        <input placeholder="Code a barre" id="Codeabarre" name="codeabarre" type="text" ><br>
+                        <span class="spans" >code matiere</span>
+                        <input placeholder="code matiere" id="Codepalette" name="codepalette"type="text" ><br>
+                        <label class="spans" for="matiére">Emplacement:</label>
+                        <select id="emplacement" name="emplacement" >
+                          <option value="stockmp"name="stockmp">Stock MP</option>
+                          <option value="stockpf" name="stockpf">Srock PF</option>
+                        </select>
+                    </div>
+                    <button type="submit" name="Ajouter" onclick="ajouterLigne()" >Ajouter</button>
+                </div>
+                </form>
+                            </div>
+                          </body>
+                          </html>

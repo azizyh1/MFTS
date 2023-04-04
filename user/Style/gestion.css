@@ -1,0 +1,130 @@
+body{
+    background-color: #f2f2f2;
+    height: 100%;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: dimgray;
+    color:aliceblue;
+    position: fixed;
+width: 100%;
+top: 0;
+margin: 0;
+padding: 1%;
+}
+#machine
+{
+    position: absolute;
+top: 13%;
+left:90%;
+padding: 12px;
+border: none;
+width: 100px;
+}
+
+#Container{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+    position: relative;
+    top: 144px;
+margin-left: 15px;
+   
+    
+}
+#gg {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#gg td,#gg th{ 
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#gg tr:nth-child(even){background-color: #f2f2f2;}
+
+#gg tr:hover {background-color: #ddd;}
+
+#gg th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #3b3939;
+  color: white;
+}
+h3{
+    font-size: 27px;
+    text-align: center;
+}
+h2{
+    margin-top: -11%;
+    margin-left: 60%; 
+}
+.spans
+{
+    font-weight: bold;
+text-decoration: underline;
+color: #050567;
+font-size: 17px;
+}
+#sousLogin
+{
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+
+}
+button{
+    padding: 15px 80px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    width: 37%;
+margin-left: 31%;
+margin-top: 11px;
+    
+}
+button :hover{
+    background-color: gray;
+}
+
+.matiére
+{
+    padding: 12px;
+    width: 699px;
+    height: 470px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 5PX;
+    border-radius: 15px;    
+}
+#submit
+{
+    width: 37%;
+margin-left: 36%;
+
+padding: 15px 80px;
+background-color: blue;
+border: none;
+color: white;
+font-weight: 1000;
+letter-spacing: 3px;
+margin-top: 11px;
+}
+#emplacement
+{
+    padding: 12px;
+    text-align: center;
+}
+input{
+    box-shadow: 1px 1px 1px 1px #cfcfcf;
+padding: 8px;
+}
