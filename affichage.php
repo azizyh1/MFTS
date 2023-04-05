@@ -7,9 +7,6 @@ if (!$conn) {
     die("Erreur de connexion : " . mysqli_connect_error());
 }
 
-
-
-
 // Effectuer une requête SQL pour récupérer le nombre de données restantes dans la table
 $sql = "SELECT COUNT(*) AS total FROM stockmp ";
 $result = mysqli_query($conn, $sql);
@@ -20,9 +17,11 @@ if (!$result) {
 }
 
 // Récupérer le nombre de données restantes dans la table
-$row = mysqli_fetch_assoc($result);
-$restantes = $row["total"];
 
-// Afficher le nombre de données restantes dans la table
-echo "la quantité de matière restante : $restantes";
+while ($row = mysqli_fetch_assoc($result)) {
+	echo '<tr>';
+	echo '<td>' . $row['total'] . '</td>';
+	echo '</tr>';
+}
+
 ?>
